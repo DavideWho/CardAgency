@@ -1,0 +1,21 @@
+/* Stile per gli elementi con la classe "my-div" */
+.my-div {
+    border: 2px solid black; /* Bordo di 2px nero */
+    padding: 10px; /* Spaziatura interna di 10px */
+    text-align: center; /* Allineamento del testo al centro */
+    margin: 5px; /* Aggiungi margine tra i div */
+    /* background-color: #f0f0f0; */ /* Colore di sfondo (commentato) */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Effetto ombra con trasparenza */
+    border-radius: 5px; /* Bordi arrotondati */
+    width: calc(60% - 20px); /* Imposta la larghezza per 2 div per riga con margine */
+}
+
+/* Stile per gli elementi con la classe "container" */
+.container {
+    text-align: center; /* Allineamento del testo al centro */
+}
+
+/* Stile per tabelle, celle e righe nelle tabelle */
+table, td, th, tr {
+    border: 2px black !important; /* Bordo di 2px nero (importante per l'override) */
+}

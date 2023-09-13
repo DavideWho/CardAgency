@@ -1,0 +1,43 @@
+/* Stile per la navbar */
+.navbar {
+    background: ghostwhite; /* Sfumatura di azzurro */
+    padding: 10px 0; /* Spaziatura interna */
+    display: flex;
+    justify-content: space-between; /* Allinea i contenuti a sinistra e a destra */
+    align-items: center; /* Allinea verticalmente al centro */
+    color: white !important; /* Colore del testo */
+    border-radius: 0; /* Rimuove il bordo arrotondato */
+}
+
+/* Stile per il pulsante Home */
+.navbar-brand {
+    text-decoration: none; /* Rimuovi la sottolineatura del link */
+    font-size: 20px; /* Dimensione del testo */
+    color: white !important; /* Colore del testo */
+    background-color: navy; /* Colore di sfondo del pulsante */
+    padding: 8px 16px; /* Spaziatura interna del pulsante */
+    border-radius: 4px; /* Bordo arrotondato */
+    transition: background-color 0.3s, color 0.3s; /* Animazione al passaggio del mouse */
+    margin-left: 20px; /* Margine a sinistra per separare dal bordo */
+}
+
+.navbar-brand:hover {
+    background-color: darkblue; /* Cambia il colore di sfondo del pulsante al passaggio del mouse */
+    color: white; /* Cambia il colore del testo al passaggio del mouse */
+}
+
+/* Stile per il pulsante di login */
+.login-button {
+    text-decoration: none; /* Rimuovi la sottolineatura del link */
+    background-color: navy; /* Colore di sfondo del pulsante */
+    color: white; /* Colore del testo del pulsante */
+    padding: 8px 16px; /* Spaziatura interna del pulsante */
+    border-radius: 4px; /* Bordo arrotondato */
+    transition: background-color 0.3s, color 0.3s; /* Animazione al passaggio del mouse */
+    margin-right: 20px; /* Margine a destra per separare dal bordo */
+}
+
+.login-button:hover {
+    background-color: darkblue; /* Cambia il colore di sfondo del pulsante al passaggio del mouse */
+    color: white; /* Cambia il colore del testo al passaggio del mouse */
+}

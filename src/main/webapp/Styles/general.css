@@ -1,0 +1,9 @@
+/* Stile per l'elemento <body> */
+body {
+    background-color: navy !important; /* Imposta il colore di sfondo del corpo della pagina su "navy" (blu scuro) con l'importanza (override) */
+}
+
+/* Stile per gli elementi <label>, <h4>, <h5>, <h1>, <p>, e <table> */
+label, h4, h5, h1, p, table {
+    color: white !important; /* Imposta il colore del testo su bianco con l'importanza (override) per i suddetti elementi */
+}

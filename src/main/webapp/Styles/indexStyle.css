@@ -1,0 +1,16 @@
+/* Stile del titolo h1 */
+h1 {
+    font-size: 36px; /* Imposta la dimensione del font a 36 pixel */
+    text-align: center; /* Allinea il testo al centro */
+    margin-top: 30px !important; /* Imposta un margine superiore di 30 pixel con importanza (override) */
+    margin-bottom: 40px; /* Imposta un margine inferiore di 40 pixel */
+    color: white !important; /* Imposta il colore del testo su bianco con importanza (override) */
+}
+
+/* Stile per l'elemento <body> */
+body {
+    background-color: navy !important; /* Imposta il colore di sfondo del corpo della pagina su "navy" (blu scuro) con importanza (override) */
+    min-height: 100vh; /* Imposta l'altezza minima del corpo al 100% della viewport height (altezza della finestra del browser) */
+    margin: 0; /* Imposta il margine esterno a zero */
+    padding: 0; /* Imposta il padding interno a zero */
+}

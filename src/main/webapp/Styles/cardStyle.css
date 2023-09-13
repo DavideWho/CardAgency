@@ -1,0 +1,25 @@
+/* Stile per gli elementi con la classe "card" */
+.card {
+    position: relative; /* Posizione relativa rispetto al contenitore padre */
+    display: flex; /* Usa il layout flessibile */
+    width: 395px; /* Larghezza dell'elemento */
+    flex-direction: column; /* Disposizione dei figli in una colonna */
+    min-width: 0; /* Larghezza minima */
+    word-wrap: break-word; /* L'overflow viene gestito spezzando la parola */
+    background-color: #23406f; /* Colore di sfondo */
+    background-clip: border-box; /* Il colore di sfondo si estende fino al bordo */
+    border: 1px solid #23406f; /* Bordo di 1px con colore */
+    border-radius: 7px; /* Bordi arrotondati */
+}
+
+/* Stile per gli elementi con la classe "light" */
+.light {
+    color: #7d7979; /* Colore del testo */
+    font-size: 11px; /* Dimensione del testo */
+}
+
+/* Stile per il corpo della pagina HTML (body) */
+body {
+    background-color: lightcyan; /* Colore di sfondo */
+    color: white; /* Colore del testo su bianco per una migliore leggibilità */
+}
