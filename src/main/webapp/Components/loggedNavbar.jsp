@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="src/main/webapp/Styles/navbar.css">
 </head>
 <body>
-
+<!-- Recupero sessione -->
 <%
   session = request.getSession();
   String target = "";
