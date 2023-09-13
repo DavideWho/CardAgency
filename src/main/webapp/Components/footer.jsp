@@ -10,7 +10,7 @@
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/DavideWho" role="button" target="_blank">
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/DavideWho/CardAgency" role="button" target="_blank">
         <img src="${pageContext.request.contextPath}/Components/Imgs/github-icon.png" alt="GitHub Icon" width="20%" height="10%">
       </a>
     </section>
@@ -21,7 +21,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: ghostwhite!important; color: black !important;">
     &copy; 2023 Copyright:
-    <a class="text-white" href="https://github.com/DavideWho" style="color: black !important;">Github-CardAgency</a>
+    <a class="text-white" href="https://github.com/DavideWho/CardAgency" style="color: black !important;">Github-CardAgency</a>
   </div>
   <!-- Copyright -->
 </footer>

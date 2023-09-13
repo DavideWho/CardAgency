@@ -21,7 +21,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background: linear-gradient(to left, #007bff, #00a1ff);">
         &copy; 2023 Copyright:
-        <a class="text-white" href="https://github.com/DavideWho">Github-CardAgency</a>
+        <a class="text-white" href="https://github.com/DavideWho/CardAgency">Github-CardAgency</a>
     </div>
     <!-- Copyright -->
 </footer>
